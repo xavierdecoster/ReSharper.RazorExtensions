@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <version>$version$</version>
+    <authors>Xavier Decoster</authors>
+    <owners />
+    <id>ReSharper.RazorExtensions</id>
+    <title />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A ReSharper plug-in for semicolon-free HTML in Razor views.</description>
+  </metadata>
+  <files>
+    <file src="bin\$configuration$\ReSharper.RazorExtensions.dll"
+          target="ReSharper\v8.0"/>
+  </files>
+</package>

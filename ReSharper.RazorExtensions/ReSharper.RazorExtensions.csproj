@@ -57,6 +57,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Actions.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ReSharper.RazorExtensions.nuspec" />
+  </ItemGroup>
   <PropertyGroup>
     <ReSharperSdkTargets Condition=" '$(ReSharperSdkTargets)' == '' ">$(MSBuildExtensionsPath)\JetBrains\ReSharper.SDK\v7.1</ReSharperSdkTargets>
   </PropertyGroup>
