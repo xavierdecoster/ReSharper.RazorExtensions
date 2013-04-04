@@ -4,12 +4,9 @@ if "%config%" == "" (
    set config=Release
 )
  
-set version=
+set version=1.0.0
 if not "%PackageVersion%" == "" (
    set version=%PackageVersion%
-)
-else (
-   set version=1.0.0
 )
 
 set nuget=
