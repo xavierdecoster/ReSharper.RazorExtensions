@@ -14,6 +14,9 @@
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <StartAction>Program</StartAction>
+    <StartProgram>$(DevEnvDir)\devenv.exe</StartProgram>
+    <StartArguments>/rootsuffix Razor /ReSharper.Plugin ReSharper.RazorExtensions.dll /ReSharper.Internal</StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,8 +37,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System.Core" />
+    <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="QuickFixes\RemoveRedundandSemicolonQuickFix.cs" />
+    <Compile Include="QuickFixes\RemoveRedundantSemicolonBulbItem.cs" />
     <Compile Include="UseOfSemicolonLiteralInRazorSyntaxDaemonProcess.cs">
       <SubType>Code</SubType>
     </Compile>
