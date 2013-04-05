@@ -1,7 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions", "ReSharper.RazorExtensions\ReSharper.RazorExtensions.csproj", "{9FF133BD-7DAA-4D50-96E2-EEA50E710B87}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A9845139-C6A1-42A0-9B76-3AE7A6F38D71}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\ReSharper.RazorExtensions.nuspec = .nuget\ReSharper.RazorExtensions.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions.v71", "ReSharper.RazorExtensions.v71\ReSharper.RazorExtensions.v71.csproj", "{9FF133BD-7DAA-4D50-96E2-EEA50E710B87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

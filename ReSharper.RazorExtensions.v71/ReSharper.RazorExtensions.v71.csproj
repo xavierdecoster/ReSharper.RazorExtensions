@@ -51,9 +51,6 @@
     <Compile Include="UseOfSemicolonLiteralInRazorSyntaxHighlighting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="ReSharper.RazorExtensions.nuspec" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\ReSharperSdk\v7.1\Plugin.Targets" />
 </Project>
