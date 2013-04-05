@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using JetBrains.ReSharper.Daemon;
 using JetBrains.ReSharper.Psi;
 using JetBrains.ReSharper.Psi.Html.Impl.Tree;

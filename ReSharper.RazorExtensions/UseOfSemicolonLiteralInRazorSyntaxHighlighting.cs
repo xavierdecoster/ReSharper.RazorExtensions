@@ -2,7 +2,6 @@ using JetBrains.ReSharper.Daemon;
 using JetBrains.ReSharper.Psi.Html.Impl.Tree;
 using JetBrains.ReSharper.Psi.Razor.CSharp.Mvc;
 using JetBrains.ReSharper.Psi.Razor.Parsing;
-using JetBrains.ReSharper.Psi.Tree;
 using ReSharper.RazorExtensions;
 
 [assembly: RegisterConfigurableSeverity(UseOfSemicolonLiteralInRazorSyntaxHighlighting.SeverityId,
@@ -25,6 +24,11 @@ namespace ReSharper.RazorExtensions
     public UseOfSemicolonLiteralInRazorSyntaxHighlighting(HtmlToken<IRazorTokenNodeTypes> htmlToken)
     {
       _htmlToken = htmlToken;
+    }
+
+    public HtmlToken<IRazorTokenNodeTypes> HtmlToken
+    {
+        get { return _htmlToken; }
     }
 
     public string ToolTip
