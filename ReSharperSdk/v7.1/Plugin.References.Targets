@@ -36,5 +36,15 @@
       <HintPath>$(ReSharperSdkBinaries)\JetBrains.ReSharper.Psi.Web.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="JetBrains.Platform.ReSharper.ComponentModel">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(ReSharperSdkBinaries)\JetBrains.Platform.ReSharper.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="JetBrains.Platform.ReSharper.ProjectModel">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>$(ReSharperSdkBinaries)\JetBrains.Platform.ReSharper.ProjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
 </Project>
