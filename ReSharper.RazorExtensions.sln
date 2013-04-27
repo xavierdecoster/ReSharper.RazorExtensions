@@ -3,10 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A9845139-C6A1-42A0-9B76-3AE7A6F38D71}"
 	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
 		.nuget\ReSharper.RazorExtensions.nuspec = .nuget\ReSharper.RazorExtensions.nuspec
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions.v71", "ReSharper.RazorExtensions.v71\ReSharper.RazorExtensions.v71.csproj", "{9FF133BD-7DAA-4D50-96E2-EEA50E710B87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions.v80", "ReSharper.RazorExtensions.v80\ReSharper.RazorExtensions.v80.csproj", "{E5C9B617-F2C8-4046-B533-0455F96A1457}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +21,10 @@ Global
 		{9FF133BD-7DAA-4D50-96E2-EEA50E710B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FF133BD-7DAA-4D50-96E2-EEA50E710B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FF133BD-7DAA-4D50-96E2-EEA50E710B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C9B617-F2C8-4046-B533-0455F96A1457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C9B617-F2C8-4046-B533-0455F96A1457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C9B617-F2C8-4046-B533-0455F96A1457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C9B617-F2C8-4046-B533-0455F96A1457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
