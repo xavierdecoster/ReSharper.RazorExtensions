@@ -5,7 +5,7 @@
     <authors>Xavier Decoster,Igal Tabachnik</authors>
     <owners>Xavier Decoster</owners>
     <id>ReSharper.RazorExtensions</id>
-    <title />
+    <title>ReSharper Razor Plugin</title>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A ReSharper plug-in for semicolon-free HTML in Razor views.</description>
     <projectUrl>https://github.com/xavierdecoster/ReSharper.RazorExtensions/</projectUrl>
