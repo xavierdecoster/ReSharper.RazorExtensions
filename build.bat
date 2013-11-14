@@ -23,5 +23,8 @@ copy ReSharper.RazorExtensions.v71\bin\%config%\*.pdb Build\v7.1
 mkdir Build\v8.0
 copy ReSharper.RazorExtensions.v80\bin\%config%\*.dll Build\v8.0
 copy ReSharper.RazorExtensions.v80\bin\%config%\*.pdb Build\v8.0
+mkdir Build\v8.1
+copy ReSharper.RazorExtensions.v81\bin\%config%\*.dll Build\v8.1
+copy ReSharper.RazorExtensions.v81\bin\%config%\*.pdb Build\v8.1
 
 %nuget% pack ".nuget\ReSharper.RazorExtensions.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
