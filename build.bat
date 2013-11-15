@@ -14,6 +14,8 @@ if "%nuget%" == "" (
 	set nuget=nuget
 )
 
+call %nuget%
+
 %nuget% install ReSharper.RazorExtensions.v81\packages.config -OutputDirectory %cd%\packages -NonInteractive -Prerelease
 
 %WINDIR%\Microsoft.NET\Framework\v4.0.30319\msbuild ReSharper.RazorExtensions.sln /p:Configuration="%config%" /m /v:M /fl /flp:LogFile=msbuild.log;Verbosity=diag /nr:false
