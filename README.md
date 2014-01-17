@@ -1,3 +1,5 @@
+![Latest Development Build Status](https://www.myget.org/BuildSource/Badge/xavierdecoster-resharper?identifier=84cfb775-cf97-4bb9-920f-bd7fde143637)
+
 ReSharper.RazorExtensions
 =========================
 
