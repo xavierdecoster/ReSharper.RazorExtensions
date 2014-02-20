@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A9845139-C6A1-42A0-9B76-3AE7A6F38D71}"
 	ProjectSection(SolutionItems) = preProject
@@ -9,11 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A98451
 		.nuget\ReSharper.RazorExtensions.nuspec = .nuget\ReSharper.RazorExtensions.nuspec
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions.v71", "ReSharper.RazorExtensions.v71\ReSharper.RazorExtensions.v71.csproj", "{9FF133BD-7DAA-4D50-96E2-EEA50E710B87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions.v71", "ReSharper.RazorExtensions\ReSharper.RazorExtensions.v71.csproj", "{9FF133BD-7DAA-4D50-96E2-EEA50E710B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions.v80", "ReSharper.RazorExtensions.v80\ReSharper.RazorExtensions.v80.csproj", "{E5C9B617-F2C8-4046-B533-0455F96A1457}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions.v80", "ReSharper.RazorExtensions\ReSharper.RazorExtensions.v80.csproj", "{E5C9B617-F2C8-4046-B533-0455F96A1457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions.v81", "ReSharper.RazorExtensions.v81\ReSharper.RazorExtensions.v81.csproj", "{587756BF-50FD-4DC6-8FCA-755EDE9FCD3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions.v81", "ReSharper.RazorExtensions\ReSharper.RazorExtensions.v81.csproj", "{587756BF-50FD-4DC6-8FCA-755EDE9FCD3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions.v82", "ReSharper.RazorExtensions\ReSharper.RazorExtensions.v82.csproj", "{5B5C9C14-BA38-4E35-89CC-CA5DD8616D79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{587756BF-50FD-4DC6-8FCA-755EDE9FCD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{587756BF-50FD-4DC6-8FCA-755EDE9FCD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{587756BF-50FD-4DC6-8FCA-755EDE9FCD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5C9C14-BA38-4E35-89CC-CA5DD8616D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5C9C14-BA38-4E35-89CC-CA5DD8616D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5C9C14-BA38-4E35-89CC-CA5DD8616D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5C9C14-BA38-4E35-89CC-CA5DD8616D79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

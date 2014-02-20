@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="QuickFixes\RemoveRedundandSemicolonQuickFix.cs" />
+    <Compile Include="QuickFixes\RemoveRedundandSemicolonQuickFix-pre8.0.cs" />
     <Compile Include="QuickFixes\RemoveRedundantSemicolonBulbItem.cs" />
     <Compile Include="UseOfSemicolonLiteralInRazorSyntaxDaemonProcess.cs">
       <SubType>Code</SubType>
