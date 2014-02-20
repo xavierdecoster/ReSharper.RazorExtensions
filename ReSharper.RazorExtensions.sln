@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions.v
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions.v81", "ReSharper.RazorExtensions\ReSharper.RazorExtensions.v81.csproj", "{587756BF-50FD-4DC6-8FCA-755EDE9FCD3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReSharper.RazorExtensions.v82", "ReSharper.RazorExtensions\ReSharper.RazorExtensions.v82.csproj", "{5B5C9C14-BA38-4E35-89CC-CA5DD8616D79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{587756BF-50FD-4DC6-8FCA-755EDE9FCD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{587756BF-50FD-4DC6-8FCA-755EDE9FCD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{587756BF-50FD-4DC6-8FCA-755EDE9FCD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B5C9C14-BA38-4E35-89CC-CA5DD8616D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B5C9C14-BA38-4E35-89CC-CA5DD8616D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B5C9C14-BA38-4E35-89CC-CA5DD8616D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B5C9C14-BA38-4E35-89CC-CA5DD8616D79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
