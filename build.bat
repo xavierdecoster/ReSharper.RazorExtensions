@@ -20,16 +20,16 @@ if "%nuget%" == "" (
 
 mkdir Build
 mkdir Build\v7.1
-copy ReSharper.RazorExtensions.v71\bin\%config%\*.dll Build\v7.1
-copy ReSharper.RazorExtensions.v71\bin\%config%\*.pdb Build\v7.1
+copy ReSharper.RazorExtensions\bin\%config%\ReSharper.RazorExtensions.dll Build\v7.1
+copy ReSharper.RazorExtensions\bin\%config%\ReSharper.RazorExtensions.pdb Build\v7.1
 mkdir Build\v8.0
-copy ReSharper.RazorExtensions.v80\bin\%config%\*.dll Build\v8.0
-copy ReSharper.RazorExtensions.v80\bin\%config%\*.pdb Build\v8.0
+copy ReSharper.RazorExtensions\bin\%config%\ReSharper.RazorExtensions.8.0.dll Build\v8.0
+copy ReSharper.RazorExtensions\bin\%config%\ReSharper.RazorExtensions.8.0.pdb Build\v8.0
 mkdir Build\v8.1
-copy ReSharper.RazorExtensions.v81\bin\%config%\*.dll Build\v8.1
-copy ReSharper.RazorExtensions.v81\bin\%config%\*.pdb Build\v8.1
+copy ReSharper.RazorExtensions\bin\%config%\ReSharper.RazorExtensions.8.1.dll Build\v8.1
+copy ReSharper.RazorExtensions\bin\%config%\ReSharper.RazorExtensions.8.1.pdb Build\v8.1
 mkdir Build\v8.2
-copy ReSharper.RazorExtensions.v82\bin\%config%\*.dll Build\v8.2
-copy ReSharper.RazorExtensions.v82\bin\%config%\*.pdb Build\v8.2
+copy ReSharper.RazorExtensions\bin\%config%\ReSharper.RazorExtensions.8.2.dll Build\v8.2
+copy ReSharper.RazorExtensions\bin\%config%\ReSharper.RazorExtensions.8.2.pdb Build\v8.2
 
 %nuget% pack ".nuget\ReSharper.RazorExtensions.nuspec" -NoPackageAnalysis -verbosity detailed -o Build -Version %version% -p Configuration="%config%"
