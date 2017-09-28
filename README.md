@@ -5,15 +5,13 @@ ReSharper.RazorExtensions
 
 A ReSharper plug-in to highlight suspicious usage of semicolon literals in Razor syntax.
 
-![Highlighting suspicious semicolon in Razor view](https://xavierdecoster.blob.core.windows.net/$root/semicolon_hunting_in_razor_views.png "Highlighting suspicious semicolon in Razor view")
+![Highlighting suspicious semicolon in Razor view](https://raw.githubusercontent.com/xavierdecoster/ReSharper.RazorExtensions/master/semicolon_hunting_in_razor_views.png)
 
 If you're interested into how this plug-in was built, you can read up about it on my [blog post](http://www.xavierdecoster.com/a-resharper-plugin-to-detect-suspicious-semicolons-in-razor-views).
 
 # Installing the extension
 
 To install this ReSharper extension, you need ReSharper 8 or higher. 
-
-![Get the extension from the ReSharper Extension Gallery](https://raw.githubusercontent.com/xavierdecoster/ReSharper.RazorExtensions/master/semicolon_hunting_in_razor_views.png)
 
 For those on an earlier version of ReSharper, clone this repository and run the build.bat. It will produce a ReSharper 7.1 compatible library as well.
 
