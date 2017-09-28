@@ -13,7 +13,7 @@ If you're interested into how this plug-in was built, you can read up about it o
 
 To install this ReSharper extension, you need ReSharper 8 or higher. 
 
-![Get the extension from the ReSharper Extension Gallery](https://xavierdecoster.blob.core.windows.net/blog/2013-04-30/2013-04-29_1901.png "Get the extension from the ReSharper Extension Gallery")
+![Get the extension from the ReSharper Extension Gallery](https://raw.githubusercontent.com/xavierdecoster/ReSharper.RazorExtensions/master/semicolon_hunting_in_razor_views.png)
 
 For those on an earlier version of ReSharper, clone this repository and run the build.bat. It will produce a ReSharper 7.1 compatible library as well.
 
